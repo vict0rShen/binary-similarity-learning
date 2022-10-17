@@ -20,7 +20,7 @@
 
 #### 属性控制流图（Attributed Control Flow Graph）
 
-一个有向图$G=\langle V,E,\phi \rangle$，其中$V$是基本块集合，$E\subseteq V \times V$表示基本块之间边的集合，$\phi : V\rightarrow \sum$为基本块到属性集合的映射函数。
+一个有向图 $G=\langle V,E,\phi \rangle$ ，其中 $V$ 是基本块集合， $E\subseteq V \times V$ 表示基本块之间边的集合， $\phi : V\rightarrow \sum$ 为基本块到属性集合的映射函数。
 
 #### ACFG生成方法
 
@@ -29,7 +29,7 @@
 部分特征说明：
 
 - No. of offspring：控制流图中该节点的子节点个数
-- Betweeness：节点的[介数中心性](../concept.md#介数中间性)
+- Betweeness：节点的[介数中心性](../concept.md#介数中心性)
 
 ![image-basic-block_level_features](./image/Genius/image-20221017172441347.png)
 
