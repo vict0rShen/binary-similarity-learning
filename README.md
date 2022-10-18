@@ -31,7 +31,7 @@
 
 # to-do list
 
-- [ ] 阅读文献：Genius（进行中）
+- [x] 阅读文献：Genius
 - [ ] 阅读文献：GEMINI
 - [ ] 阅读文献：ASM2VEC
 - [ ] 阅读文献：discovre: Efficient cross-architecture identification of bugs in binary code
