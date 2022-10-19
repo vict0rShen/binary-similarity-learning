@@ -19,6 +19,9 @@
 
 - Genius (*CCF-A；CCS2016*) [[paper]](https://dl.acm.org/doi/abs/10.1145/2976749.2978370) [[github]](https://github.com/qian-feng/Gencoding) [[note]](./notes/Genius.md)
   - FENG Q, ZHOU R, XU C, et al. Scalable Graph-based Bug Search for Firmware Images[C]//Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security. Vienna, Austria:Association for Computing Machinery,2016:480–491. 10.1145/2976749.2978370.
+- discovRE (*CCF-A；NDSS2016*)  [[paper]](https://www.ndss-symposium.org/wp-content/uploads/2017/09/discovre-efficient-cross-architecture-identification-bugs-binary-code.pdf) [[note]](./notes/discovRE.md)
+  - ESCHWEILER S, YAKDAN K, GERHARDS-PADILLA E. discovRE: Efficient Cross-Architecture Identification of Bugs in Binary Code[C]//NDSS.2016
+
 
 ## 专有名词及其缩写
 
@@ -34,6 +37,10 @@
 - [x] 阅读文献：Genius
 - [ ] 阅读文献：GEMINI
 - [ ] 阅读文献：ASM2VEC
-- [ ] 阅读文献：discovre: Efficient cross-architecture identification of bugs in binary code
+- [x] 阅读文献：discovre: Efficient cross-architecture identification of bugs in binary code
 - [ ] 阅读文献：Cross-architecture bug search in binary executables
+- [ ] 基本概念：NP；NP-hard；NP-complete
+- [ ] 基本概念：皮尔逊积矩相关系数（Pearson product-moment correlation coefficient）
+- [ ] 基本概念：最大公共子图（maximum common subgraph，MCS）
+- [ ] 略读文献：Recognizing Functions in Binaries with Neural Networks
 
