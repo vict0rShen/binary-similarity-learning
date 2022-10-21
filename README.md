@@ -17,6 +17,9 @@
 
 ## 高水平文献
 
+- Multi-MH (*CCF-A；S&P2015*) [[paper]](https://ieeexplore.ieee.org/abstract/document/7163056) [[note]](./notes/Multi-MH.md)
+  - PEWNY J, GARMANY B, GAWLIK R, et al. Cross-Architecture Bug Search in Binary Executables[C]//2015 IEEE Symposium on Security and Privacy.2015:709-724. 10.1109/SP.2015.49.
+
 - Genius (*CCF-A；CCS2016*) [[paper]](https://dl.acm.org/doi/abs/10.1145/2976749.2978370) [[github]](https://github.com/qian-feng/Gencoding) [[note]](./notes/Genius.md)
   - FENG Q, ZHOU R, XU C, et al. Scalable Graph-based Bug Search for Firmware Images[C]//Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security. Vienna, Austria:Association for Computing Machinery,2016:480–491. 10.1145/2976749.2978370.
 - discovRE (*CCF-A；NDSS2016*)  [[paper]](https://www.ndss-symposium.org/wp-content/uploads/2017/09/discovre-efficient-cross-architecture-identification-bugs-binary-code.pdf) [[note]](./notes/discovRE.md)
@@ -31,6 +34,7 @@
 | CFG  | Control Flow Graph            | 控制流图     |
 | IR   | Intermediate Representation   | 中间表示     |
 | LSH  | Locality Sensitive Hashing    | 局部敏感哈希 |
+| MCS  | Maximum Common Subgraph       | 最大公共子图 |
 
 # to-do list
 
@@ -38,9 +42,14 @@
 - [ ] 阅读文献：GEMINI
 - [ ] 阅读文献：ASM2VEC
 - [x] 阅读文献：discovre: Efficient cross-architecture identification of bugs in binary code
-- [ ] 阅读文献：Cross-architecture bug search in binary executables
-- [ ] 基本概念：NP；NP-hard；NP-complete
-- [ ] 基本概念：皮尔逊积矩相关系数（Pearson product-moment correlation coefficient）
-- [ ] 基本概念：最大公共子图（maximum common subgraph，MCS）
+- [x] 阅读文献：Cross-architecture bug search in binary executables
+- [x] 基本概念：NP；NP-hard；NP-complete
+- [x] 基本概念：皮尔逊积矩相关系数（Pearson product-moment correlation coefficient）
+- [x] 基本概念：最大公共子图（maximum common subgraph，MCS）
 - [ ] 略读文献：Recognizing Functions in Binaries with Neural Networks
+- [x] 基本概念：Jaccard index
+- [x] 基本概念：Minhash
+- [ ] 基本概念：cumulative distribution function (CDF) 
+- [ ] 略读文献：Blanket execution:Dynamic similarity testing for program binaries and components.
+- [ ] 阅读文献：Leveraging SemanticSignatures for Bug Search in Binary Programs.
 
