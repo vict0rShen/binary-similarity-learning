@@ -55,7 +55,7 @@ $$d_{BB}=\frac{\sum \alpha_i |c_{if}-c_{ig}|}{\sum \alpha_i \max(c_{if},c_{ig})}
 
 各属性权重的确定源自下述优化问题：
 
-$$\max (d_{BB}(f_i,g_j)-d_{BB}(f_i,f_j)$$
+$$\max (d_{BB}(f_i,g_j)-d_{BB}(f_i,f_j))$$
 
 即不同块之间的差异尽可能大，相同块（同一代码在不同编译器下的编译结果）之间的差异尽可能小
 
