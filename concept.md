@@ -79,3 +79,15 @@ $$g(v)=\sum_{s\ne v \ne t} \frac{\sigma_{st}(v)}{\sigma_{st}}$$
 下图中，每个点的介数中心性从数值最低（红色）到最高（蓝色）着色。
 
 ![image-20221017220650594](./image/concept/image-20221017220650594.png)
+
+### S-expression
+
+*标签：计算机编程*
+
+Lisp语言源码的书写形式，通常使用二叉树来实现S-expression。
+
+`a = b + c` 的S-expression为 `(= a (+ b c))` 。
+
+ S-expression `(* 2 (+ 3 4))` 的二叉树表示如下图所示。
+
+![img](./image/concept/220px-S-expression_tree.svg.png)

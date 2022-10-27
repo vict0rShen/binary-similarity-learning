@@ -15,7 +15,10 @@
   - 领域内常用方法的分类与概述，适合入门
   - 仅包含2019年及以前的文献
 
-## 高水平文献
+## 经典文献
+
+- TEDEM *(CCF-B; ACSAC2014)*  [[paper]](https://dl.acm.org/doi/abs/10.1145/2664243.2664269) [[note]](./notes/TEDEM.md)
+  - PEWNY J, SCHUSTER F, BERNHARD L, et al. Leveraging semantic signatures for bug search in binary programs[C]//Proceedings of the 30th Annual Computer Security Applications Conference.2014:406-415. 
 
 - Multi-MH (*CCF-A；S&P2015*) [[paper]](https://ieeexplore.ieee.org/abstract/document/7163056) [[note]](./notes/Multi-MH.md)
   - PEWNY J, GARMANY B, GAWLIK R, et al. Cross-Architecture Bug Search in Binary Executables[C]//2015 IEEE Symposium on Security and Privacy.2015:709-724. 10.1109/SP.2015.49.
@@ -39,19 +42,24 @@
 | IR   | Intermediate Representation      | 中间表示         |
 | LSH  | Locality Sensitive Hashing       | 局部敏感哈希     |
 | MCS  | Maximum Common Subgraph          | 最大公共子图     |
+| TED  | Tree Edit Distance               | 树编辑距离       |
 
 # to-do list
 
 - [x] 阅读文献：Gemini
 - [ ] 阅读文献：ASM2VEC
-- [x] 阅读文献：discovre: Efficient cross-architecture identification of bugs in binary code
-- [x] 阅读文献：Cross-architecture bug search in binary executables
-- [ ] 略读文献：Recognizing Functions in Binaries with Neural Networks
-- [x] 基本概念：Jaccard index
-- [x] 基本概念：Minhash
+- [x] 略读文献：Recognizing Functions in Binaries with Neural Networks
 - [ ] 略读文献：Blanket execution:Dynamic similarity testing for program binaries and components.
-- [ ] 阅读文献：Leveraging Semantic Signatures for Bug Search in Binary Programs.
+- [x] 阅读文献：Leveraging Semantic Signatures for Bug Search in Binary Programs.
 - [ ] 阅读文献：Tracelet-based code search in executables.
 - [ ] 略读文献：Discriminative Embeddings of LatentVariable Models for Structured Data
-- [ ] 阅读文献：Finding Unknown Malice in 10 Seconds: MassVetting for New Threats at the Google-Play Scale
+- [ ] 略读文献：Finding Unknown Malice in 10 Seconds: MassVetting for New Threats at the Google-Play Scale
+- [ ] 阅读文献：Kam1n0: Mapreduce-based assembly clone search for reverse engineering
+- [ ] 阅读文献：Deep learning code fragments for code clone detection
+- [ ] 略读文献：Graph-based Comparison of Executable Objects.（bindiff）
+- [ ] 略读文献：BinHunt
+- [ ] 略读文献：Binary FunctionClustering Using Semantic Hashes.
+- [ ] 略读文献：FastLocation of Similar Code Fragments Using Semantic’Juice’
+- [ ] 略读文献：DiscoveringPotential Binary Code Re-use.
+- [x] 基本概念：S-Expression
 

@@ -23,7 +23,7 @@
 ### 构建中间表示
 
 - 使用VEX（pyvex）提取中间表示
-- 将中间表示输入“Z3”定理证明器，获取可用于输入输出计算的S-Expressions
+- 将中间表示输入“Z3”定理证明器，获取可用于输入输出计算的[S-Expression](../concept.md#s-expression)
 
 ### 采样获取语义特征
 

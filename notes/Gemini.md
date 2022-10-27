@@ -44,7 +44,7 @@ $$\sigma(l)=\underbrace{P_1\times \mathrm{ReLU}(P_2\times \cdots\mathrm{ReLU}(P_
 
 嵌入向量大小 $p=64$ ，嵌入深度 $n=2$ ，嵌套次数 $T=5$ 
 
-ACFG的特征在[Genius](./Genius.md)的基础上删除了介数中心性特征。
+ACFG的特征在[Genius](./Genius.md)的基础上删除了[介数中心性](../concept.md#介数中心性)特征。
 
 ### 使用孪生网络训练网络参数
 
