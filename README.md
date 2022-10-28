@@ -15,7 +15,7 @@
   - 领域内常用方法的分类与概述，适合入门
   - 仅包含2019年及以前的文献
 
-## 经典文献
+## bug search (static analysis)
 
 - TEDEM *(CCF-B; ACSAC2014)*  [[paper]](https://dl.acm.org/doi/abs/10.1145/2664243.2664269) [[note]](./notes/TEDEM.md)
   - PEWNY J, SCHUSTER F, BERNHARD L, et al. Leveraging semantic signatures for bug search in binary programs[C]//Proceedings of the 30th Annual Computer Security Applications Conference.2014:406-415. 
@@ -30,36 +30,48 @@
 - Gemini (*CCF-A；CCS2017*) [[paper]](https://dl.acm.org/doi/abs/10.1145/3133956.3134018) [[github]](https://github.com/Yunlongs/Gemini) [[note]](./notes/Gemini.md)
   - XU X, LIU C, FENG Q, et al. Neural Network-based Graph Embedding for Cross-Platform Binary Code Similarity Detection[C]//Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security. Dallas, Texas, USA:Association for Computing Machinery,2017:363–376. 10.1145/3133956.3134018.
 
+## bug search (dynamic analysis)
 
+- BLEX *(CCF-A; USENIX2014)* [[paper]](https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/egele) [[note]](./notes/BLEX)
+  - EGELE M, WOO M, CHAPMAN P, et al. Blanket execution: Dynamic similarity testing for program binaries and components[C]//23rd USENIX Security Symposium (USENIX Security 14).2014:303-317. 
+
+
+## clone detection
+
+- Kam1n0 *(CCF-A; KDD2016)*  [[paper]](https://dl.acm.org/doi/abs/10.1145/2939672.2939719) [[github]](https://github.com/McGill-DMaS/Kam1n0-Community)
+  - DING S H H, FUNG B C M, CHARLAND P. Kam1n0: MapReduce-based Assembly Clone Search for Reverse Engineering[C]//Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.2016:461-470. 
+  - 侧重于新哈希算法和MapReduce方案的设计
 
 ## 专有名词及其缩写
 
-| 缩写 | 名词全称                         | 中文释义         |
-| ---- | -------------------------------- | ---------------- |
-| ACFG | Attributed Control Flow Graph    | 属性控制流图     |
-| CDF  | Cumulative Distribution Function | （累计）分布函数 |
-| CFG  | Control Flow Graph               | 控制流图         |
-| IR   | Intermediate Representation      | 中间表示         |
-| LSH  | Locality Sensitive Hashing       | 局部敏感哈希     |
-| MCS  | Maximum Common Subgraph          | 最大公共子图     |
-| TED  | Tree Edit Distance               | 树编辑距离       |
+| 缩写 | 名词全称                            | 中文释义           |
+| ---- | ----------------------------------- | ------------------ |
+| ACFG | Attributed Control Flow Graph       | 属性控制流图       |
+| ALSH | Adaptive Locality Sensitive Hashing | 自适应局部敏感哈希 |
+| CDF  | Cumulative Distribution Function    | （累计）分布函数   |
+| CFG  | Control Flow Graph                  | 控制流图           |
+| GI   | Graph Isomorphism                   | 图同构             |
+| IR   | Intermediate Representation         | 中间表示           |
+| LSH  | Locality Sensitive Hashing          | 局部敏感哈希       |
+| MCS  | Maximum Common Subgraph             | 最大公共子图       |
+| TED  | Tree Edit Distance                  | 树编辑距离         |
 
 # to-do list
 
-- [x] 阅读文献：Gemini
 - [ ] 阅读文献：ASM2VEC
 - [x] 略读文献：Recognizing Functions in Binaries with Neural Networks
-- [ ] 略读文献：Blanket execution:Dynamic similarity testing for program binaries and components.
+- [x] 阅读文献：Blanket execution: Dynamic similarity testing for program binaries and components.
 - [x] 阅读文献：Leveraging Semantic Signatures for Bug Search in Binary Programs.
 - [ ] 阅读文献：Tracelet-based code search in executables.
-- [ ] 略读文献：Discriminative Embeddings of LatentVariable Models for Structured Data
-- [ ] 略读文献：Finding Unknown Malice in 10 Seconds: MassVetting for New Threats at the Google-Play Scale
-- [ ] 阅读文献：Kam1n0: Mapreduce-based assembly clone search for reverse engineering
-- [ ] 阅读文献：Deep learning code fragments for code clone detection
+- [ ] 略读文献：Discriminative Embeddings of Latent Variable Models for Structured Data
 - [ ] 略读文献：Graph-based Comparison of Executable Objects.（bindiff）
 - [ ] 略读文献：BinHunt
 - [ ] 略读文献：Binary FunctionClustering Using Semantic Hashes.
-- [ ] 略读文献：FastLocation of Similar Code Fragments Using Semantic’Juice’
-- [ ] 略读文献：DiscoveringPotential Binary Code Re-use.
+- [ ] 略读文献：Fast Location of Similar Code Fragments Using Semantic ’Juice’
+- [ ] 略读文献：Discovering Potential Binary Code Re-use.
 - [x] 基本概念：S-Expression
+- [ ] 阅读文献：Rendezvous
+- [ ] 阅读文献：BinGo: cross-architecture cross-OS binary search
+- [ ] 阅读文献：[Neural Machine Translation Inspired Binary Code Similarity Comparison beyond Function Pairs](https://www.semanticscholar.org/paper/fe3470a9c37e88928fbd0d84ed578357b1f07a0d)
+- [ ] 阅读文献：How Machine Learning Is Solving the Binary Function Similarity Problem
 
