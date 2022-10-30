@@ -46,6 +46,24 @@ $$J(A,B)=\frac{|A\cap B|}{|A\cup B|}=\frac{\{s_1,s_5\}}{\{s_1,s_2,s_3,s_4,s_5,s_
 
 $$\rho_{X,Y}=\frac{\mathrm{cov}(X,Y)}{\sigma_X \sigma_Y}=\frac{\mathrm{E}[(X-\mu_X)(Y-\mu_Y)]}{\sigma_X \sigma_Y}$$
 
+### 平均倒数排名（Mean Reciprocal Rank，MRR）
+
+*标签：统计学*、
+
+评价搜索算法的通用评价指标，设搜索请求序列为 $Q$ ，对于第 $i$ 个搜索请求，正确结果在搜索结果中的排位为 $\mathrm{rank_i}$ ，则
+
+$$\displaystyle\mathrm{MRR}=\frac{1}{|Q|}\sum_{i=1}^{|Q|}\frac{1}{\mathrm{rank_i}}$$ 
+
+例：
+
+| 请求  | 搜索结果             | 正确结果 | 排名 | 倒数排名 |
+| ----- | -------------------- | -------- | ---- | -------- |
+| cat   | catten, cati, cats   | cats     | 3    | 1/3      |
+| torus | torii, tori, toruses | tori     | 2    | 1/2      |
+| virus | viruses, virii, viri | viruses  | 1    | 1        |
+
+$$\mathrm{MRR}= (1/3 + 1/2 + 1)/3 = 11/18 \approx 0.61$$
+
 ### 二分图
 
 *标签：图论*
