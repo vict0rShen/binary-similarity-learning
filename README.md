@@ -47,7 +47,7 @@
 
 ## Measurement Study
 
-- How Machine Learning Is Solving the Binary Function Similarity Problem *(CCF-A; USENIX2022)* [[paper]](https://www.usenix.org/conference/usenixsecurity22/presentation/marcelli) [[github]](https://github.com/Cisco-Talos/binary_function_similarity) [[note]](./notes/How_Machine_Learning_is_Solving_the_BInary_Function_Similarity_Problem.md)
+- a *(CCF-A; USENIX2022)* [[paper]](https://www.usenix.org/conference/usenixsecurity22/presentation/marcelli) [[github]](https://github.com/Cisco-Talos/binary_function_similarity) [[note]](./notes/How_Machine_Learning_is_Solving_the_BInary_Function_Similarity_Problem.md)
   - MARCELLI A, GRAZIANO M, UGARTE-PEDRERO X, et al. How machine learning is solving the binary function similarity problem[C]//31st USENIX Security Symposium (USENIX Security 22).2022:2099-2116. 
   - 构建开源数据集，将现有方法在同一基准下进行测试
   - 阅读相关论文时可作为分析用参考，精读对应部分
