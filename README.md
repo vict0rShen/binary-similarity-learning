@@ -17,8 +17,11 @@
 
 ## Binary Diffing
 
-- Bindiff (*SSTIC2005*) [[paper]](http://195.154.171.95/SSTIC05/Analyse_differentielle_de_binaires/SSTIC05-article-Flake-Graph_based_comparison_of_Executable_Objects.pdf) [[note]](./notes/Bindiff.md)
+- Graph-based comparison of executable objects (*SSTIC2005*) [[paper]](http://195.154.171.95/SSTIC05/Analyse_differentielle_de_binaires/SSTIC05-article-Flake-Graph_based_comparison_of_Executable_Objects.pdf) [[note]](./notes/Graph-based_comparison_of_executable_objects.md)
   - DULLIEN T, ROLLES R. Graph-based comparison of executable objects (english version) [J]. Sstic, 2005, 5(1): 3.
+
+
+## Binary Similarity
 
 - BLEX *(CCF-A; USENIX2014)* [[paper]](https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/egele) [[note]](./notes/BLEX.md)
   - EGELE M, WOO M, CHAPMAN P, et al. Blanket execution: Dynamic similarity testing for program binaries and components[C]//23rd USENIX Security Symposium (USENIX Security 14).2014:303-317. 
@@ -93,4 +96,6 @@
 - [ ] 阅读文献：Codecmr: Cross-modal retrieval for function-level binary source code matching.
 - [ ] 阅读文献：Trex: Learning execution semantics from micro-traces for binary similarity
 - [x] 基本概念：MRR
+- [ ] 略读文献：Structural Comparison of Executable Objects
+- [x] 基本概念：幂集
 

@@ -14,6 +14,27 @@ NP-Hard：还没有找到多项式时间解，也不确定能不能再多项式�
 
 ![image-20221019212544350](./image/concept/image-20221019212544350.png)
 
+### 幂集（power set）
+
+*标签：集合*
+
+集合的幂集定义为由该集合全部子集为元素构成的集合
+
+若 $\displaystyle S$ 是集合 $\displaystyle \{a,b,c\}$ ，则 $\displaystyle S$ 的全部子集如下：
+
+-  $\displaystyle \varnothing $（空集）
+-  $\displaystyle \{a\}$ 
+-  $\displaystyle \{b\}$ 
+-  $\displaystyle \{c\}$ 
+-  $\displaystyle \{a,b\}$ 
+-  $\displaystyle \{a,c\}$ 
+-  $\displaystyle \{b,c\}$ 
+-  $\displaystyle \{a,b,c\}$ 
+
+因此 $\displaystyle S$ 的幂集为
+
+$${\mathcal  {P}}(S)=\{{\displaystyle \varnothing }, {\displaystyle \{a\}}, {\displaystyle \{b\}}, {\displaystyle \{c\}}, {\displaystyle \{a,b\}}, {\displaystyle \{a,c\}}, {\displaystyle \{b,c\}}, {\displaystyle \{a,b,c\}}{\displaystyle \}\,\!}$$
+
 ### Jaccard相似度
 
 *标签：统计学*
@@ -48,7 +69,7 @@ $$\rho_{X,Y}=\frac{\mathrm{cov}(X,Y)}{\sigma_X \sigma_Y}=\frac{\mathrm{E}[(X-\mu
 
 ### 平均倒数排名（Mean Reciprocal Rank，MRR）
 
-*标签：统计学*、
+*标签：统计学*
 
 评价搜索算法的通用评价指标，设搜索请求序列为 $Q$ ，对于第 $i$ 个搜索请求，正确结果在搜索结果中的排位为 $\mathrm{rank_i}$ ，则
 
