@@ -2,7 +2,9 @@
 
 二进制代码相似度分析（Binary Code Similarity Analysis）学习笔记
 
-`[paper]`：论文发布页；`[note]`：论文笔记 ；`[github]`：github源码
+`[paper]`：论文发布页；`[note]`：论文笔记 ；`[github]`：github源码；`[dataset]`：数据集
+
+方法名前的`*`表示该方法使用了动态分析
 
 ## 基本概念解析
 
@@ -23,17 +25,15 @@
 
 ## Binary Similarity
 
-- BLEX *(CCF-A; USENIX2014)* [[paper]](https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/egele) [[note]](./notes/BLEX.md)
+- *BLEX *(CCF-A; USENIX2014)* [[paper]](https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/egele) [[note]](./notes/BLEX.md)
   - EGELE M, WOO M, CHAPMAN P, et al. Blanket execution: Dynamic similarity testing for program binaries and components[C]//23rd USENIX Security Symposium (USENIX Security 14).2014:303-317. 
 
-## Binary Search
+## Bug Search
 
 - TEDEM *(CCF-B; ACSAC2014)*  [[paper]](https://dl.acm.org/doi/abs/10.1145/2664243.2664269) [[note]](./notes/TEDEM.md)
   - PEWNY J, SCHUSTER F, BERNHARD L, et al. Leveraging semantic signatures for bug search in binary programs[C]//Proceedings of the 30th Annual Computer Security Applications Conference.2014:406-415. 
-
 - Multi-MH (*CCF-A；S&P2015*) [[paper]](https://ieeexplore.ieee.org/abstract/document/7163056) [[note]](./notes/Multi-MH.md)
   - PEWNY J, GARMANY B, GAWLIK R, et al. Cross-Architecture Bug Search in Binary Executables[C]//2015 IEEE Symposium on Security and Privacy.2015:709-724. 10.1109/SP.2015.49.
-
 - Genius (*CCF-A；CCS2016*) [[paper]](https://dl.acm.org/doi/abs/10.1145/2976749.2978370) [[github]](https://github.com/qian-feng/Gencoding) [[note]](./notes/Genius.md)
   - FENG Q, ZHOU R, XU C, et al. Scalable Graph-based Bug Search for Firmware Images[C]//Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security. Vienna, Austria:Association for Computing Machinery,2016:480–491. 10.1145/2976749.2978370.
 - discovRE (*CCF-A；NDSS2016*)  [[paper]](https://www.ndss-symposium.org/wp-content/uploads/2017/09/discovre-efficient-cross-architecture-identification-bugs-binary-code.pdf) [[note]](./notes/discovRE.md)
@@ -41,19 +41,25 @@
 - Gemini (*CCF-A；CCS2017*) [[paper]](https://dl.acm.org/doi/abs/10.1145/3133956.3134018) [[github]](https://github.com/Yunlongs/Gemini) [[note]](./notes/Gemini.md)
   - XU X, LIU C, FENG Q, et al. Neural Network-based Graph Embedding for Cross-Platform Binary Code Similarity Detection[C]//Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security. Dallas, Texas, USA:Association for Computing Machinery,2017:363–376. 10.1145/3133956.3134018.
 
-
-## Clone Detection
+## Clone Search
 
 - Kam1n0 *(CCF-A; KDD2016)*  [[paper]](https://dl.acm.org/doi/abs/10.1145/2939672.2939719) [[github]](https://github.com/McGill-DMaS/Kam1n0-Community)
   - DING S H H, FUNG B C M, CHARLAND P. Kam1n0: MapReduce-based Assembly Clone Search for Reverse Engineering[C]//Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.2016:461-470. 
   - 侧重于新哈希算法和MapReduce方案的设计
+- Asm2Vec (*CCF-A；S&P2019*) [[paper]](https://ieeexplore.ieee.org/abstract/document/8835340) [[note]](./notes/Asm2Vec.md)
+  - DING S H H, FUNG B C M, CHARLAND P. Asm2Vec: Boosting Static Representation Robustness for Binary Clone Search against Code Obfuscation and Compiler Optimization[C]//2019 IEEE Symposium on Security and Privacy (SP).2019:472-489. 10.1109/SP.2019.00003.
 
 ## Measurement Study
 
-- a *(CCF-A; USENIX2022)* [[paper]](https://www.usenix.org/conference/usenixsecurity22/presentation/marcelli) [[github]](https://github.com/Cisco-Talos/binary_function_similarity) [[note]](./notes/How_Machine_Learning_is_Solving_the_BInary_Function_Similarity_Problem.md)
+- How machine learning is solving the binary function similarity problem *(CCF-A; USENIX2022)* [[paper]](https://www.usenix.org/conference/usenixsecurity22/presentation/marcelli) [[github]](https://github.com/Cisco-Talos/binary_function_similarity) [[note]](./notes/How_Machine_Learning_is_Solving_the_BInary_Function_Similarity_Problem.md)
   - MARCELLI A, GRAZIANO M, UGARTE-PEDRERO X, et al. How machine learning is solving the binary function similarity problem[C]//31st USENIX Security Symposium (USENIX Security 22).2022:2099-2116. 
   - 构建开源数据集，将现有方法在同一基准下进行测试
   - 阅读相关论文时可作为分析用参考，精读对应部分
+
+## Dataset
+
+- Esh Dataset [[dataset]](https://github.com/nimrodpar/esh-dataset-1523)
+  - 包含3015个二进制函数，覆盖8类实际漏洞
 
 
 ## 专有名词及其缩写
@@ -73,7 +79,7 @@
 
 # to-do list
 
-- [ ] 阅读文献：ASM2VEC
+- [x] 阅读文献：ASM2VEC
 - [ ] 阅读文献：Tracelet-based code search in executables.
 - [ ] 略读文献：Discriminative Embeddings of Latent Variable Models for Structured Data
 - [x] 略读文献：Graph-based Comparison of Executable Objects.（bindiff）
@@ -87,7 +93,7 @@
 - [ ] 阅读文献：[Neural Machine Translation Inspired Binary Code Similarity Comparison beyond Function Pairs](https://www.semanticscholar.org/paper/fe3470a9c37e88928fbd0d84ed578357b1f07a0d)
 - [x] 阅读文献：How Machine Learning Is Solving the Binary Function Similarity Problem
 - [ ] 阅读文献：Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection
-- [ ] 阅读文献：Statistical similarity of binaries.
+- [ ] 阅读文献：*Statistical similarity of binaries.
 - [ ] 阅读：https://googleprojectzero.blogspot.com/2018/12/searching-statically-linked-vulnerable.html
 - [ ] 阅读文献：Graph matching networks for learning the similarity of graph structured objects
 - [ ] 阅读文献：Binary Similarity Detection Using Machine Learning.
@@ -98,4 +104,11 @@
 - [x] 基本概念：MRR
 - [ ] 略读文献：Structural Comparison of Executable Objects
 - [x] 基本概念：幂集
+- [ ] 阅读文献：Library functions identification in binary code by using graph isomorphism testings
+- [ ] 阅读文献：Semantics-based obfuscation-resilient binary code similarity comparison with applications to software plagiarism detection
+- [ ] 阅读文献：Cross-Architecture Bug Search in Binary Executables
+- [ ] 阅读文献：*Binary Code Clone Detection across Architectures and Compiling Configurations
+- [ ] 阅读文献：BinClone: Detecting Code Clones in Malware
+- [ ] 略读文献：Distributed Representations of Sentences and Documents
+- [ ] 阅读文献：Compiler-agnostic function detection in binaries,
 
