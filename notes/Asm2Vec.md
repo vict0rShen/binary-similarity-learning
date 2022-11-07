@@ -58,7 +58,7 @@ $$\mathcal{CT}(in)=\overrightarrow{v}_{p(in)}||\frac{1}{|\mathcal{A}(in)|}\displ
 
 进一步地：
 
-$$\mathrm{P}(t_c|\delta(in_j,f_s))&=&\mathrm{P}(\overrightarrow{v'}_{t_c}|\delta(in_j,f_s))\\&=&\frac{f(\overrightarrow{v'}_{t_d},\delta(in_j,f_s))}{\sum_d^Df(\overrightarrow{v'}_{t_c},\delta(in_j,f_s))}\\f(\overrightarrow{v'}_{t_c},\delta(in_j,f_s))&=&Uh((\overrightarrow{v'}_{t_c})^T\times\delta(in_j,f_s))$$
+$$\mathrm{P}(t_c|\delta(in_j,f_s))=\mathrm{P}(\overrightarrow{v'}_{t_c}|\delta(in_j,f_s))=\frac{f(\overrightarrow{v'}_{t_d},\delta(in_j,f_s))}{\sum_d^Df(\overrightarrow{v'}_{t_c},\delta(in_j,f_s))}\\f(\overrightarrow{v'}_{t_c},\delta(in_j,f_s))=Uh((\overrightarrow{v'}_{t_c})^T\times\delta(in_j,f_s))$$
 
 其中 $Uh$ 表示对向量中的每个值做sigmod变换。
 
