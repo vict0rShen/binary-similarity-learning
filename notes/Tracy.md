@@ -34,7 +34,7 @@
 
 #### 相似度计算
 
-$$sim(c,c')=\begin{cases}2+|\{i|args(c)[i]=args)(c')[i]\}|\ SameKind(c,c')\\-1\ otherwise\end{cases}$$
+$$sim(c,c')=\begin{cases}2+|\{i|args(c)[i]=args)(c')[i]\}|\ SameKind(c,c') \\\\ -1\ otherwise\end{cases}$$
 
 相似度计算伪代码如下图所示
 
