@@ -19,8 +19,12 @@
 
 ## Binary Diffing
 
+- Bindiff (*DIMVA2004*) [[paper]](https://www.researchgate.net/profile/Thomas-Dullien-3/publication/28356113_Structural_Comparison_of_Executable_Objects/links/568c0fb108ae197e426895bc/Structural-Comparison-of-Executable-Objects.pdf)
+  - FLAKE H. Structural comparison of executable objects[C]//Proc. of the International GI Workshop on Detection of Intrusions and Malware & Vulnerability Assessment, number P-46 in Lecture Notes in Informatics.2004:161-174. 
 - Graph-based comparison of executable objects (*SSTIC2005*) [[paper]](http://195.154.171.95/SSTIC05/Analyse_differentielle_de_binaires/SSTIC05-article-Flake-Graph_based_comparison_of_Executable_Objects.pdf) [[note]](./notes/Graph-based_comparison_of_executable_objects.md)
   - DULLIEN T, ROLLES R. Graph-based comparison of executable objects (english version) [J]. Sstic, 2005, 5(1): 3.
+- BinHunt (*CCF-C；ICICS2008*) [[paper]](https://link.springer.com/chapter/10.1007/978-3-540-88625-9_16) [[note]](./notes/BinHunt.md)
+  - GAO D, REITER M K, SONG D. BinHunt: Automatically Finding Semantic Differences in Binary Programs[C]//International Conference on Information and Communications Security. Berlin, Heidelberg:Springer Berlin Heidelberg,2008:238-255. 
 
 
 ## Binary Similarity (one-to-one)
@@ -90,14 +94,14 @@
 # to-do list
 
 - [ ] 略读文献：Graph-based Comparison of Executable Objects.
-- [ ] 略读文献：*BinHunt
+- [x] 略读文献：BinHunt
 - [ ] 略读文献：Binary Function Clustering Using Semantic Hashes.
 - [ ] 略读文献：Fast Location of Similar Code Fragments Using Semantic ’Juice’
 - [ ] 略读文献：Discovering Potential Binary Code Re-use.
 - [x] 基本概念：S-Expression
 - [ ] 阅读文献：*Rendezvous
 - [x] 阅读文献：BinGo: cross-architecture cross-OS binary search
-- [ ] 阅读文献：*[Neural Machine Translation Inspired Binary Code Similarity Comparison beyond Function Pairs](https://www.semanticscholar.org/paper/fe3470a9c37e88928fbd0d84ed578357b1f07a0d)
+- [x] 阅读文献：[Neural Machine Translation Inspired Binary Code Similarity Comparison beyond Function Pairs](https://www.semanticscholar.org/paper/fe3470a9c37e88928fbd0d84ed578357b1f07a0d)
 - [x] 阅读文献：How Machine Learning Is Solving the Binary Function Similarity Problem
 - [ ] 阅读文献：Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection
 - [x] 阅读文献：Statistical similarity of binaries.
@@ -108,9 +112,6 @@
 - [ ] 阅读文献：Investigating Graph Embedding Neural Networks with Unsupervised Features Extraction for Binary Analysis. 
 - [ ] 阅读文献：Codecmr: Cross-modal retrieval for function-level binary source code matching.
 - [ ] 阅读文献：Trex: Learning execution semantics from micro-traces for binary similarity
-- [x] 基本概念：MRR
-- [ ] 略读文献：*Structural Comparison of Executable Objects
-- [x] 基本概念：幂集
 - [ ] 阅读文献：Library functions identification in binary code by using graph isomorphism testings
 - [ ] 阅读文献：Semantics-based obfuscation-resilient binary code similarity comparison with applications to software plagiarism detection
 - [ ] 阅读文献：Cross-Architecture Bug Search in Binary Executables
@@ -135,4 +136,5 @@
 - [ ] 阅读文献：[Extracting Conditional Formulas for Cross-Platform Bug Search](https://www.semanticscholar.org/paper/c75d9f1ff9177b26b7681876d7ee810d14401a49)
 - [ ] 阅读文献：Patch based vulnerability matching for binary programs
 - [ ] 阅读文献：[Semantics-Based Obfuscation-Resilient Binary Code Similarity Comparison with Applications to Software and Algorithm Plagiarism Detection](https://www.semanticscholar.org/paper/d86129473ebc932af4cdcf143a196e60e24fad9b)
+- [ ] 略读文献：iBinHunt
 
