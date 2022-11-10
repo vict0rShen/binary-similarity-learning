@@ -30,15 +30,18 @@
 
 ## Binary Search (one-to-many)
 
-- TEDEM *(CCF-B; ACSAC2014)*  [[paper]](https://dl.acm.org/doi/abs/10.1145/2664243.2664269) [[note]](./notes/TEDEM.md)
+- TEDEM (*CCF-B; ACSAC2014*)  [[paper]](https://dl.acm.org/doi/abs/10.1145/2664243.2664269) [[note]](./notes/TEDEM.md)
   - PEWNY J, SCHUSTER F, BERNHARD L, et al. Leveraging semantic signatures for bug search in binary programs[C]//Proceedings of the 30th Annual Computer Security Applications Conference.2014:406-415. 
-- Tracy *(CCF-A；PLDI2014)* [[paper]](https://dl.acm.org/doi/abs/10.1145/2666356.2594343) [[github]](https://github.com/Yanivmd/TRACY) [[note]](./notes/Tracy.md)
+- Tracy (*CCF-A；PLDI2014*) [[paper]](https://dl.acm.org/doi/abs/10.1145/2666356.2594343) [[github]](https://github.com/Yanivmd/TRACY) [[note]](./notes/Tracy.md)
   - DAVID Y, YAHAV E. Tracelet-based code search in executables[C]//Proceedings of the 35th ACM SIGPLAN Conference on Programming Language Design and Implementation. Edinburgh, United Kingdom:Association for Computing Machinery,2014:349–360. 10.1145/2594291.2594343.
 - Multi-MH (*CCF-A；S&P2015*) [[paper]](https://ieeexplore.ieee.org/abstract/document/7163056) [[note]](./notes/Multi-MH.md)
   - PEWNY J, GARMANY B, GAWLIK R, et al. Cross-Architecture Bug Search in Binary Executables[C]//2015 IEEE Symposium on Security and Privacy.2015:709-724. 10.1109/SP.2015.49.
+- BinGo (*CCF-A；FSE2016*) [[paper]](https://dl.acm.org/doi/10.1145/2950290.2950350) [[note]](./notes/BinGo.md)
+  - CHANDRAMOHAN M, XUE Y, XU Z, et al. Bingo: Cross-architecture cross-os binary search[C]//Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering.2016:678-689. 
+
 - discovRE (*CCF-A；NDSS2016*)  [[paper]](https://www.ndss-symposium.org/wp-content/uploads/2017/09/discovre-efficient-cross-architecture-identification-bugs-binary-code.pdf) [[note]](./notes/discovRE.md)
   - ESCHWEILER S, YAKDAN K, GERHARDS-PADILLA E. discovRE: Efficient Cross-Architecture Identification of Bugs in Binary Code[C]//NDSS.2016
-- Esh *(CCF-A；PLDI2016)* [[paper]](https://nlibvpn.bit.edu.cn/https/77726476706e69737468656265737421f4fb0f9d243d265f6c0f/doi/10.1145/2908080.2908126) [[github]](https://github.com/tech-srl/esh) [[note]](./notes/Esh.md)
+- Esh (*CCF-A；PLDI2016*) [[paper]](https://nlibvpn.bit.edu.cn/https/77726476706e69737468656265737421f4fb0f9d243d265f6c0f/doi/10.1145/2908080.2908126) [[github]](https://github.com/tech-srl/esh) [[note]](./notes/Esh.md)
   - DAVID Y, PARTUSH N, YAHAV E. Statistical similarity of binaries[C]//Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation. Santa Barbara, CA, USA:Association for Computing Machinery,2016:266–280. 10.1145/2908080.2908126.
 - Genius (*CCF-A；CCS2016*) [[paper]](https://dl.acm.org/doi/abs/10.1145/2976749.2978370) [[github]](https://github.com/qian-feng/Gencoding) [[note]](./notes/Genius.md)
   - FENG Q, ZHOU R, XU C, et al. Scalable Graph-based Bug Search for Firmware Images[C]//Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security. Vienna, Austria:Association for Computing Machinery,2016:480–491. 10.1145/2976749.2978370.
@@ -86,14 +89,14 @@
 
 # to-do list
 
-- [ ] 略读文献：Graph-based Comparison of Executable Objects.（bindiff）
-- [ ] 略读文献：BinHunt
+- [ ] 略读文献：Graph-based Comparison of Executable Objects.
+- [ ] 略读文献：*BinHunt
 - [ ] 略读文献：Binary Function Clustering Using Semantic Hashes.
 - [ ] 略读文献：Fast Location of Similar Code Fragments Using Semantic ’Juice’
 - [ ] 略读文献：Discovering Potential Binary Code Re-use.
 - [x] 基本概念：S-Expression
 - [ ] 阅读文献：*Rendezvous
-- [ ] 阅读文献：*BinGo: cross-architecture cross-OS binary search
+- [x] 阅读文献：BinGo: cross-architecture cross-OS binary search
 - [ ] 阅读文献：*[Neural Machine Translation Inspired Binary Code Similarity Comparison beyond Function Pairs](https://www.semanticscholar.org/paper/fe3470a9c37e88928fbd0d84ed578357b1f07a0d)
 - [x] 阅读文献：How Machine Learning Is Solving the Binary Function Similarity Problem
 - [ ] 阅读文献：Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection
@@ -101,12 +104,12 @@
 - [ ] 阅读：https://googleprojectzero.blogspot.com/2018/12/searching-statically-linked-vulnerable.html
 - [ ] 阅读文献：Graph matching networks for learning the similarity of graph structured objects
 - [ ] 阅读文献：Binary Similarity Detection Using Machine Learning.
-- [ ] 阅读文献：Safe: Self-attentive function embeddings for binary similarity
+- [ ] 阅读文献：*Safe: Self-attentive function embeddings for binary similarity
 - [ ] 阅读文献：Investigating Graph Embedding Neural Networks with Unsupervised Features Extraction for Binary Analysis. 
 - [ ] 阅读文献：Codecmr: Cross-modal retrieval for function-level binary source code matching.
 - [ ] 阅读文献：Trex: Learning execution semantics from micro-traces for binary similarity
 - [x] 基本概念：MRR
-- [ ] 略读文献：Structural Comparison of Executable Objects
+- [ ] 略读文献：*Structural Comparison of Executable Objects
 - [x] 基本概念：幂集
 - [ ] 阅读文献：Library functions identification in binary code by using graph isomorphism testings
 - [ ] 阅读文献：Semantics-based obfuscation-resilient binary code similarity comparison with applications to software plagiarism detection
@@ -115,13 +118,21 @@
 - [ ] 阅读文献：BinClone: Detecting Code Clones in Malware
 - [ ] 略读文献：Distributed Representations of Sentences and Documents
 - [ ] 阅读文献：Compiler-agnostic function detection in binaries
-- [ ] 阅读文献：Accurate and Scalable Cross-Architecture Cross-OS Binary Code Search with Emulation
+- [ ] 阅读文献：*Accurate and Scalable Cross-Architecture Cross-OS Binary Code Search with Emulation
 - [ ] 阅读文献：*Learning Program-Wide Code Representations for Binary Diffing
 - [ ] 阅读文献：jTrans: jump-aware transformer for binary code similarity detection
 - [ ] 阅读文献：[Semantic Learning and Emulation Based Cross-Platform Binary Vulnerability Seeker](https://www.semanticscholar.org/paper/4c16bf0be5ee1eff6f3749a56fea215cc812ba96)
 - [ ] 阅读文献：[Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned](https://www.semanticscholar.org/paper/3121b307c1e1e893e001ac8f7742e8b3f87ea966)
 - [ ] 阅读文献：BinSim: Trace-based Semantic Binary Diffing via System Call Sliced Segment Equivalence Checking
 - [ ] 阅读文献：Similarity of binaries through re-optimization
-- [ ] 阅读文献：[Semantics-Based Obfuscation-Resilient Binary Code Similarity Comparison with Applications to Software and Algorithm Plagiarism Detection](https://www.semanticscholar.org/paper/d86129473ebc932af4cdcf143a196e60e24fad9b)
+- [ ] 阅读文献：*[Semantics-Based Obfuscation-Resilient Binary Code Similarity Comparison with Applications to Software and Algorithm Plagiarism Detection](https://www.semanticscholar.org/paper/d86129473ebc932af4cdcf143a196e60e24fad9b)
 - [ ] 阅读文献：[Accurate and Scalable Cross-Architecture Cross-OS Binary Code Search with Emulation](https://www.semanticscholar.org/paper/842f0e0022a16cb194cfb86d153bfe37ff39bb46)
+- [ ] 阅读文献：semantics-based obfuscation-resilient binary code similarity comparison with applications to software plagiarism detection.（bingo前置）
+- [ ] 略读文献：value-based program characterization and its application to software plagiarism detection
+- [ ] 略读文献：Finer-grained control flow integrity for stripped binaries（bingo前置）
+- [ ] 略读文献：Towards automatic software lineage inference（经典文献）
+- [ ] 略读文献：Binslayer: accurate comparison of binary executables
+- [ ] 阅读文献：[Extracting Conditional Formulas for Cross-Platform Bug Search](https://www.semanticscholar.org/paper/c75d9f1ff9177b26b7681876d7ee810d14401a49)
+- [ ] 阅读文献：Patch based vulnerability matching for binary programs
+- [ ] 阅读文献：[Semantics-Based Obfuscation-Resilient Binary Code Similarity Comparison with Applications to Software and Algorithm Plagiarism Detection](https://www.semanticscholar.org/paper/d86129473ebc932af4cdcf143a196e60e24fad9b)
 
