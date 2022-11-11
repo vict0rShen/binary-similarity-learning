@@ -34,9 +34,6 @@
 
 ## Binary Search (one-to-many)
 
-- CoP (*CCF-A；FSE2016*) [[paper]](https://dl.acm.org/doi/abs/10.1145/2635868.2635900) 
-  - LUO L, MING J, WU D, et al. Semantics-based obfuscation-resilient binary code similarity comparison with applications to software plagiarism detection[C]//Proceedings of the 22nd ACM SIGSOFT International Symposium on Foundations of Software Engineering.2014:389-400. 
-
 - TEDEM (*CCF-B; ACSAC2014*)  [[paper]](https://dl.acm.org/doi/abs/10.1145/2664243.2664269) [[note]](./notes/TEDEM.md)
   - PEWNY J, SCHUSTER F, BERNHARD L, et al. Leveraging semantic signatures for bug search in binary programs[C]//Proceedings of the 30th Annual Computer Security Applications Conference.2014:406-415. 
 - Tracy (*CCF-A；PLDI2014*) [[paper]](https://dl.acm.org/doi/abs/10.1145/2666356.2594343) [[github]](https://github.com/Yanivmd/TRACY) [[note]](./notes/Tracy.md)
@@ -45,7 +42,6 @@
   - PEWNY J, GARMANY B, GAWLIK R, et al. Cross-Architecture Bug Search in Binary Executables[C]//2015 IEEE Symposium on Security and Privacy.2015:709-724. 10.1109/SP.2015.49.
 - BinGo (*CCF-A；FSE2016*) [[paper]](https://dl.acm.org/doi/10.1145/2950290.2950350) [[note]](./notes/BinGo.md)
   - CHANDRAMOHAN M, XUE Y, XU Z, et al. Bingo: Cross-architecture cross-os binary search[C]//Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering.2016:678-689. 
-
 - discovRE (*CCF-A；NDSS2016*)  [[paper]](https://www.ndss-symposium.org/wp-content/uploads/2017/09/discovre-efficient-cross-architecture-identification-bugs-binary-code.pdf) [[note]](./notes/discovRE.md)
   - ESCHWEILER S, YAKDAN K, GERHARDS-PADILLA E. discovRE: Efficient Cross-Architecture Identification of Bugs in Binary Code[C]//NDSS.2016
 - Esh (*CCF-A；PLDI2016*) [[paper]](https://nlibvpn.bit.edu.cn/https/77726476706e69737468656265737421f4fb0f9d243d265f6c0f/doi/10.1145/2908080.2908126) [[github]](https://github.com/tech-srl/esh) [[note]](./notes/Esh.md)
@@ -57,6 +53,10 @@
 - InnerEye (*CCF-A；NDSS2019*) [[paper]](https://www.ndss-symposium.org/ndss-paper/neural-machine-translation-inspired-binary-code-similarity-comparison-beyond-function-pairs/) [[model]](https://nmt4binaries.github.io/#model) [[note]](./notes/InnerEye.md)
   - ZUO F, LI X, YOUNG P, et al. Neural Machine Translation Inspired Binary Code Similarity Comparison beyond Function Pairs[C]//Network and Distributed Systems Security (NDSS) Symposium 2019.2019
 
+## Plagiarism Detection
+
+- CoP (*CCF-A；FSE2016*) [[paper]](https://dl.acm.org/doi/abs/10.1145/2635868.2635900) [[note]](./notes/CoP.md)
+  - LUO L, MING J, WU D, et al. Semantics-based obfuscation-resilient binary code similarity comparison with applications to software plagiarism detection[C]//Proceedings of the 22nd ACM SIGSOFT International Symposium on Foundations of Software Engineering.2014:389-400. 
 
 ## Clone Search
 
