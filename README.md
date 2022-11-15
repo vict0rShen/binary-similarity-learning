@@ -50,6 +50,9 @@
   - FENG Q, ZHOU R, XU C, et al. Scalable Graph-based Bug Search for Firmware Images[C]//Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security. Vienna, Austria:Association for Computing Machinery,2016:480–491. 10.1145/2976749.2978370.
 - Gemini (*CCF-A；CCS2017*) [[paper]](https://dl.acm.org/doi/abs/10.1145/3133956.3134018) [[github]](https://github.com/Yunlongs/Gemini) [[note]](./notes/Gemini.md)
   - XU X, LIU C, FENG Q, et al. Neural Network-based Graph Embedding for Cross-Platform Binary Code Similarity Detection[C]//Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security. Dallas, Texas, USA:Association for Computing Machinery,2017:363–376. 10.1145/3133956.3134018.
+- SAFE (*CCF-C；DIMVA2019*) [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-22038-9_15) [[github]](https://github.com/gadiluna/SAFE) [[note]](./notes/SAFE.md)
+  - MASSARELLI L, LUNA G A D, PETRONI F, et al. Safe: Self-attentive function embeddings for binary similarity[C]//International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment.Springer,2019:309-329. 
+
 - InnerEye (*CCF-A；NDSS2019*) [[paper]](https://www.ndss-symposium.org/ndss-paper/neural-machine-translation-inspired-binary-code-similarity-comparison-beyond-function-pairs/) [[model]](https://nmt4binaries.github.io/#model) [[note]](./notes/InnerEye.md)
   - ZUO F, LI X, YOUNG P, et al. Neural Machine Translation Inspired Binary Code Similarity Comparison beyond Function Pairs[C]//Network and Distributed Systems Security (NDSS) Symposium 2019.2019
 
@@ -113,7 +116,7 @@
 - [x] 阅读文献：Statistical similarity of binaries.
 - [ ] 阅读：https://googleprojectzero.blogspot.com/2018/12/searching-statically-linked-vulnerable.html
 - [ ] 阅读文献：Binary Similarity Detection Using Machine Learning.
-- [ ] 阅读文献：**Safe: Self-attentive function embeddings for binary similarity
+- [x] 阅读文献：Safe: Self-attentive function embeddings for binary similarity
 - [ ] 阅读文献：Investigating Graph Embedding Neural Networks with Unsupervised Features Extraction for Binary Analysis. 
 - [ ] 阅读文献：Codecmr: Cross-modal retrieval for function-level binary source code matching.
 - [ ] 阅读文献：Trex: Learning execution semantics from micro-traces for binary similarity
@@ -123,28 +126,29 @@
 - [ ] 阅读文献：BinClone: Detecting Code Clones in Malware
 - [ ] 阅读文献：Compiler-agnostic function detection in binaries
 - [x] 阅读文献：Accurate and Scalable Cross-Architecture Cross-OS Binary Code Search with Emulation
-- [ ] 阅读文献：*Learning Program-Wide Code Representations for Binary Diffing
+- [ ] 阅读文献：**Learning Program-Wide Code Representations for Binary Diffing
 - [ ] 阅读文献：jTrans: jump-aware transformer for binary code similarity detection
 - [ ] 阅读文献：*[Semantic Learning and Emulation Based Cross-Platform Binary Vulnerability Seeker](https://www.semanticscholar.org/paper/4c16bf0be5ee1eff6f3749a56fea215cc812ba96)
 - [ ] 阅读文献：*[Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned](https://www.semanticscholar.org/paper/3121b307c1e1e893e001ac8f7742e8b3f87ea966)
-- [ ] 阅读文献：*BinSim: Trace-based Semantic Binary Diffing via System Call Sliced Segment Equivalence Checking
-- [ ] 阅读文献：*Similarity of binaries through re-optimization
+- [ ] 阅读文献：**BinSim: Trace-based Semantic Binary Diffing via System Call Sliced Segment Equivalence Checking
+- [ ] 阅读文献：**Similarity of binaries through re-optimization
 - [x] 阅读文献：semantics-based obfuscation-resilient binary code similarity comparison with applications to software plagiarism detection.
 - [ ] 略读文献：*value-based program characterization and its application to software plagiarism detection
 - [ ] 略读文献：Finer-grained control flow integrity for stripped binaries（bingo前置）
 - [ ] 略读文献：Towards automatic software lineage inference（经典文献）
 - [ ] 略读文献：*Binslayer: accurate comparison of binary executables
 - [ ] 阅读文献：[Extracting Conditional Formulas for Cross-Platform Bug Search](https://www.semanticscholar.org/paper/c75d9f1ff9177b26b7681876d7ee810d14401a49)
-- [ ] 阅读文献：*Patch based vulnerability matching for binary programs
+- [ ] 阅读文献：**Patch based vulnerability matching for binary programs
 - [ ] 略读文献：iBinHunt
 - [ ] 阅读文献：[Function Representations for Binary Similarity](https://www.semanticscholar.org/paper/7c688e25d85326f3c0eea0e75c38d25f3c8c2f2e)
 - [ ] 阅读文献：[VulSeeker: A Semantic Learning Based Vulnerability Seeker for Cross-Platform Binary](https://www.semanticscholar.org/paper/6d361ffdcd75ebc75d2dd295dc30460c982ee7fb)
-- [ ] 阅读文献：[B2SFinder: Detecting Open-Source Software Reuse in COTS Software](https://www.semanticscholar.org/paper/f861d1cdf31a6250c4491cda4b1bbb00df8a0e86)
+- [ ] 阅读文献：*[B2SFinder: Detecting Open-Source Software Reuse in COTS Software](https://www.semanticscholar.org/paper/f861d1cdf31a6250c4491cda4b1bbb00df8a0e86)
 - [ ] 阅读文献：[$\alpha$ Diff: Cross-Version Binary Code Similarity Detection with DNN](https://www.semanticscholar.org/paper/4e9f86c4da00682276752778dd74642280ebe086)
-- [ ] 阅读文献：[FirmUp: Precise Static Detection of Common Vulnerabilities in Firmware](https://www.semanticscholar.org/paper/b1ef9380982946089b7d619af1fc0555e2209110)
+- [ ] 阅读文献：*[FirmUp: Precise Static Detection of Common Vulnerabilities in Firmware](https://www.semanticscholar.org/paper/b1ef9380982946089b7d619af1fc0555e2209110)
 - [ ] 阅读文献：VulSeeker: A Semantic Learning Based Vulnerability Seeker for Cross-Platform Binary
 - [ ] 阅读文献：[Binary Code Clone Detection across Architectures and Compiling Configurations](https://www.semanticscholar.org/paper/65823f9f70b00c245d283e9284a03258e68aeaff)
 - [ ] 阅读文献：[BinMatch: A Semantics-Based Hybrid Approach on Binary Code Clone Analysis](https://www.semanticscholar.org/paper/37564c8be9e7afdfb92a2886f669867dbe78e501)
 - [ ] 略读文献：Value-based program characterization and its application to software plagiarism detection,
-- [ ] 略读文献：cross-architecture binarysemantics understanding via similar code comparison,
+- [ ] 略读文献：cross-architecture binarysemantics understanding via similar code comparison
+- [ ] 阅读文献：[A Semantics-Based Hybrid Approach on Binary Code Similarity Comparison](https://www.semanticscholar.org/paper/69e34b0c43addcbfc799403bea5c428b3b74d6dd)
 
