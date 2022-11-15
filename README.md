@@ -73,6 +73,10 @@
 
 ## Measurement Study
 
+- BinKit [[paper]](https://ieeexplore.ieee.org/abstract/document/9813408) [[dataset]](https://github.com/SoftSec-KAIST/binkit) [[github]](https://github.com/SoftSec-KAIST/tiknib)
+  - KIM D, KIM E, CHA S K, et al. 2022. Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned. IEEE Transactions on Software Engineering [J]: 1-23.
+  - 分析了非语义特征（句法、结构特征）在二进制相似性分析中的作用
+
 - How machine learning is solving the binary function similarity problem *(CCF-A; USENIX2022)* [[paper]](https://www.usenix.org/conference/usenixsecurity22/presentation/marcelli) [[github]](https://github.com/Cisco-Talos/binary_function_similarity) [[note]](./notes/How_Machine_Learning_is_Solving_the_BInary_Function_Similarity_Problem.md)
   - MARCELLI A, GRAZIANO M, UGARTE-PEDRERO X, et al. How machine learning is solving the binary function similarity problem[C]//31st USENIX Security Symposium (USENIX Security 22).2022:2099-2116. 
   - 构建开源数据集，将现有方法在同一基准下进行测试
@@ -90,9 +94,11 @@
 | ---- | ----------------------------------- | ------------------ |
 | ACFG | Attributed Control Flow Graph       | 属性控制流图       |
 | ALSH | Adaptive Locality Sensitive Hashing | 自适应局部敏感哈希 |
+| ASLR | Address Space Layout Randomization  | 空间地址随机化     |
 | BB   | Basic Block                         | 基本块             |
 | CDF  | Cumulative Distribution Function    | （累计）分布函数   |
 | CFG  | Control Flow Graph                  | 控制流图           |
+| CG   | Call Graph                          | 函数调用图         |
 | GI   | Graph Isomorphism                   | 图同构             |
 | IR   | Intermediate Representation         | 中间表示           |
 | IVL  | Intermediate Verification Language  | 中间验证语言       |
@@ -112,7 +118,7 @@
 - [ ] 略读文献：Discovering Potential Binary Code Re-use.
 - [x] 基本概念：S-Expression
 - [ ] 阅读文献：*Rendezvous
-- [ ] 阅读文献：*Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection
+- [ ] 阅读文献：**Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection
 - [x] 阅读文献：Statistical similarity of binaries.
 - [ ] 阅读：https://googleprojectzero.blogspot.com/2018/12/searching-statically-linked-vulnerable.html
 - [ ] 阅读文献：Binary Similarity Detection Using Machine Learning.
@@ -126,10 +132,10 @@
 - [ ] 阅读文献：BinClone: Detecting Code Clones in Malware
 - [ ] 阅读文献：Compiler-agnostic function detection in binaries
 - [x] 阅读文献：Accurate and Scalable Cross-Architecture Cross-OS Binary Code Search with Emulation
-- [ ] 阅读文献：**Learning Program-Wide Code Representations for Binary Diffing
-- [ ] 阅读文献：jTrans: jump-aware transformer for binary code similarity detection
+- [ ] 阅读文献：***Learning Program-Wide Code Representations for Binary Diffing
+- [ ] 阅读文献：*jTrans: jump-aware transformer for binary code similarity detection
 - [ ] 阅读文献：*[Semantic Learning and Emulation Based Cross-Platform Binary Vulnerability Seeker](https://www.semanticscholar.org/paper/4c16bf0be5ee1eff6f3749a56fea215cc812ba96)
-- [ ] 阅读文献：*[Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned](https://www.semanticscholar.org/paper/3121b307c1e1e893e001ac8f7742e8b3f87ea966)
+- [x] 阅读文献：[Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned](https://www.semanticscholar.org/paper/3121b307c1e1e893e001ac8f7742e8b3f87ea966)
 - [ ] 阅读文献：**BinSim: Trace-based Semantic Binary Diffing via System Call Sliced Segment Equivalence Checking
 - [ ] 阅读文献：**Similarity of binaries through re-optimization
 - [x] 阅读文献：semantics-based obfuscation-resilient binary code similarity comparison with applications to software plagiarism detection.
@@ -137,18 +143,23 @@
 - [ ] 略读文献：Finer-grained control flow integrity for stripped binaries（bingo前置）
 - [ ] 略读文献：Towards automatic software lineage inference（经典文献）
 - [ ] 略读文献：*Binslayer: accurate comparison of binary executables
-- [ ] 阅读文献：[Extracting Conditional Formulas for Cross-Platform Bug Search](https://www.semanticscholar.org/paper/c75d9f1ff9177b26b7681876d7ee810d14401a49)
-- [ ] 阅读文献：**Patch based vulnerability matching for binary programs
+- [ ] 阅读文献：*[Extracting Conditional Formulas for Cross-Platform Bug Search](https://www.semanticscholar.org/paper/c75d9f1ff9177b26b7681876d7ee810d14401a49)
+- [ ] 阅读文献：***Patch based vulnerability matching for binary programs
 - [ ] 略读文献：iBinHunt
-- [ ] 阅读文献：[Function Representations for Binary Similarity](https://www.semanticscholar.org/paper/7c688e25d85326f3c0eea0e75c38d25f3c8c2f2e)
+- [ ] 阅读文献：*[Function Representations for Binary Similarity](https://www.semanticscholar.org/paper/7c688e25d85326f3c0eea0e75c38d25f3c8c2f2e)
 - [ ] 阅读文献：[VulSeeker: A Semantic Learning Based Vulnerability Seeker for Cross-Platform Binary](https://www.semanticscholar.org/paper/6d361ffdcd75ebc75d2dd295dc30460c982ee7fb)
 - [ ] 阅读文献：*[B2SFinder: Detecting Open-Source Software Reuse in COTS Software](https://www.semanticscholar.org/paper/f861d1cdf31a6250c4491cda4b1bbb00df8a0e86)
 - [ ] 阅读文献：[$\alpha$ Diff: Cross-Version Binary Code Similarity Detection with DNN](https://www.semanticscholar.org/paper/4e9f86c4da00682276752778dd74642280ebe086)
 - [ ] 阅读文献：*[FirmUp: Precise Static Detection of Common Vulnerabilities in Firmware](https://www.semanticscholar.org/paper/b1ef9380982946089b7d619af1fc0555e2209110)
-- [ ] 阅读文献：VulSeeker: A Semantic Learning Based Vulnerability Seeker for Cross-Platform Binary
 - [ ] 阅读文献：[Binary Code Clone Detection across Architectures and Compiling Configurations](https://www.semanticscholar.org/paper/65823f9f70b00c245d283e9284a03258e68aeaff)
 - [ ] 阅读文献：[BinMatch: A Semantics-Based Hybrid Approach on Binary Code Clone Analysis](https://www.semanticscholar.org/paper/37564c8be9e7afdfb92a2886f669867dbe78e501)
-- [ ] 略读文献：Value-based program characterization and its application to software plagiarism detection,
 - [ ] 略读文献：cross-architecture binarysemantics understanding via similar code comparison
 - [ ] 阅读文献：[A Semantics-Based Hybrid Approach on Binary Code Similarity Comparison](https://www.semanticscholar.org/paper/69e34b0c43addcbfc799403bea5c428b3b74d6dd)
+- [ ] 阅读文献：Binary Code Similarity Detection
+- [ ] 阅读文献：[Codee: A Tensor Embedding Scheme for Binary Code Search](https://www.semanticscholar.org/paper/02f5f13de274c237042ef5df6ed14ff16639722d)
+- [ ] 阅读文献：A  deep learning  approach  to  program  similarity
+- [ ] 阅读文献：DeepBinDiff:  Learningprogram-wide  code  representations  for  binary  diffing
+- [ ] 阅读文献：Hybrid firmware  analysis  for  known  mobile  and  IoT  security  vulnerabilities
+- [ ] 略读文献：Testing intermediate representations for binary analysis
+- [ ] 阅读文献：Similarity  of  binaries  across  optimization  levels  and  obfuscation,
 
