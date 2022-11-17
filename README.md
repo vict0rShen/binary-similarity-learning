@@ -55,6 +55,9 @@
 
 - InnerEye (*CCF-A；NDSS2019*) [[paper]](https://www.ndss-symposium.org/ndss-paper/neural-machine-translation-inspired-binary-code-similarity-comparison-beyond-function-pairs/) [[model]](https://nmt4binaries.github.io/#model) [[note]](./notes/InnerEye.md)
   - ZUO F, LI X, YOUNG P, et al. Neural Machine Translation Inspired Binary Code Similarity Comparison beyond Function Pairs[C]//Network and Distributed Systems Security (NDSS) Symposium 2019.2019
+- Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection (*CCF-A；AAAI2020*) [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/5466) [[note]](./notes/Order_Matters.md)
+  - YU Z, CAO R, TANG Q, et al. Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection[C]//Proceedings of the AAAI Conference on Artificial Intelligence.2020:1145-1152. 10.1609/aaai.v34i01.5466.
+
 
 ## Plagiarism Detection
 
@@ -73,7 +76,7 @@
 
 ## Measurement Study
 
-- BinKit [[paper]](https://ieeexplore.ieee.org/abstract/document/9813408) [[dataset]](https://github.com/SoftSec-KAIST/binkit) [[github]](https://github.com/SoftSec-KAIST/tiknib)
+- BinKit (*WOS-Q1; 中科院-1区；2022*) [[paper]](https://ieeexplore.ieee.org/abstract/document/9813408) [[dataset]](https://github.com/SoftSec-KAIST/binkit) [[github]](https://github.com/SoftSec-KAIST/tiknib)
   - KIM D, KIM E, CHA S K, et al. 2022. Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned. IEEE Transactions on Software Engineering [J]: 1-23.
   - 分析了非语义特征（句法、结构特征）在二进制相似性分析中的作用
 
@@ -105,6 +108,7 @@
 | LCS  | Longest Common Subsequence          | 最长公共子序列     |
 | LSH  | Locality Sensitive Hashing          | 局部敏感哈希       |
 | MCS  | Maximum Common Subgraph             | 最大公共子图       |
+| MLP  | Multilayer Perceptron               | 多层感知机         |
 | MRR  | Mean Reciprocal Rank                | 平均倒数排名       |
 | PDG  | Program Dependence Graph            | 程序依赖图         |
 | TED  | Tree Edit Distance                  | 树编辑距离         |
@@ -118,8 +122,6 @@
 - [ ] 略读文献：Discovering Potential Binary Code Re-use.
 - [x] 基本概念：S-Expression
 - [ ] 阅读文献：*Rendezvous
-- [ ] 阅读文献：**Order Matters: Semantic-Aware Neural Networks for Binary Code Similarity Detection
-- [x] 阅读文献：Statistical similarity of binaries.
 - [ ] 阅读：https://googleprojectzero.blogspot.com/2018/12/searching-statically-linked-vulnerable.html
 - [ ] 阅读文献：Binary Similarity Detection Using Machine Learning.
 - [x] 阅读文献：Safe: Self-attentive function embeddings for binary similarity
@@ -146,10 +148,9 @@
 - [ ] 阅读文献：*[Extracting Conditional Formulas for Cross-Platform Bug Search](https://www.semanticscholar.org/paper/c75d9f1ff9177b26b7681876d7ee810d14401a49)
 - [ ] 阅读文献：***Patch based vulnerability matching for binary programs
 - [ ] 略读文献：iBinHunt
-- [ ] 阅读文献：*[Function Representations for Binary Similarity](https://www.semanticscholar.org/paper/7c688e25d85326f3c0eea0e75c38d25f3c8c2f2e)
+- [ ] 阅读文献：**[Function Representations for Binary Similarity](https://www.semanticscholar.org/paper/7c688e25d85326f3c0eea0e75c38d25f3c8c2f2e)
 - [ ] 阅读文献：[VulSeeker: A Semantic Learning Based Vulnerability Seeker for Cross-Platform Binary](https://www.semanticscholar.org/paper/6d361ffdcd75ebc75d2dd295dc30460c982ee7fb)
-- [ ] 阅读文献：*[B2SFinder: Detecting Open-Source Software Reuse in COTS Software](https://www.semanticscholar.org/paper/f861d1cdf31a6250c4491cda4b1bbb00df8a0e86)
-- [ ] 阅读文献：[$\alpha$ Diff: Cross-Version Binary Code Similarity Detection with DNN](https://www.semanticscholar.org/paper/4e9f86c4da00682276752778dd74642280ebe086)
+- [ ] 阅读文献：*[$\alpha$ Diff: Cross-Version Binary Code Similarity Detection with DNN](https://www.semanticscholar.org/paper/4e9f86c4da00682276752778dd74642280ebe086)
 - [ ] 阅读文献：*[FirmUp: Precise Static Detection of Common Vulnerabilities in Firmware](https://www.semanticscholar.org/paper/b1ef9380982946089b7d619af1fc0555e2209110)
 - [ ] 阅读文献：[Binary Code Clone Detection across Architectures and Compiling Configurations](https://www.semanticscholar.org/paper/65823f9f70b00c245d283e9284a03258e68aeaff)
 - [ ] 阅读文献：[BinMatch: A Semantics-Based Hybrid Approach on Binary Code Clone Analysis](https://www.semanticscholar.org/paper/37564c8be9e7afdfb92a2886f669867dbe78e501)
@@ -158,8 +159,14 @@
 - [ ] 阅读文献：Binary Code Similarity Detection
 - [ ] 阅读文献：[Codee: A Tensor Embedding Scheme for Binary Code Search](https://www.semanticscholar.org/paper/02f5f13de274c237042ef5df6ed14ff16639722d)
 - [ ] 阅读文献：A  deep learning  approach  to  program  similarity
-- [ ] 阅读文献：DeepBinDiff:  Learningprogram-wide  code  representations  for  binary  diffing
 - [ ] 阅读文献：Hybrid firmware  analysis  for  known  mobile  and  IoT  security  vulnerabilities
 - [ ] 略读文献：Testing intermediate representations for binary analysis
 - [ ] 阅读文献：Similarity  of  binaries  across  optimization  levels  and  obfuscation,
+- [ ] 略读文献：Bert: Pre-training of deep bidirectional transformers for language understanding （基本概念）
+- [ ] 略读文献：Neural message passing for quantum chemistry（基本概念）
+- [ ] 阅读文献：[PalmTree: Learning an Assembly Language Model for Instruction Embedding](https://www.semanticscholar.org/paper/7d0c1cb43e8b398ad5b064e74f00802d4d585be6)
+- [ ] 阅读文献：Multi-relational Instruction Association Graph for Cross-architecture Binary Similarity Comparison
+- [ ] 阅读文献：[Hierarchical Attention Graph Embedding Networks for Binary Code Similarity against Compilation Diversity](https://www.semanticscholar.org/paper/c91ffc484fbd77c302b21dbb50398a11085f9d19)
+- [ ] 阅读文献：[Investigating Graph Embedding Neural Networks with Unsupervised Features Extraction for Binary Analysis](https://www.semanticscholar.org/paper/64a0f24f726fc7d67988ee6b58997c21a1aaa2d1)
+- [ ] 阅读文献：[EnBinDiff: Identifying Data-only Patches for Binaries](https://ieeexplore.ieee.org/iel7/8858/4358699/09645381.pdf)
 
